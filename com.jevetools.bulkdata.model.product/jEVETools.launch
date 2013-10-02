@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.EquinoxLauncher">
+<booleanAttribute key="append.args" value="true"/>
+<booleanAttribute key="automaticAdd" value="false"/>
+<booleanAttribute key="automaticValidate" value="true"/>
+<stringAttribute key="bootstrap" value=""/>
+<stringAttribute key="checked" value="[NONE]"/>
+<booleanAttribute key="clearConfig" value="true"/>
+<stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/jEVETools"/>
+<booleanAttribute key="default" value="true"/>
+<booleanAttribute key="default_auto_start" value="false"/>
+<intAttribute key="default_start_level" value="3"/>
+<booleanAttribute key="includeOptional" value="false"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog -console"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Declipse.ignoreApp=true -Dosgi.noShutdown=true -Dosgi.console.enable.builtin=true -Dorg.osgi.service.http.port=8080 -Dosgi.bundles.defaultStartLevel=3"/>
+<stringAttribute key="pde.version" value="3.3"/>
+<booleanAttribute key="show_selected_only" value="false"/>
+<stringAttribute key="target_bundles" value="ch.qos.logback.classic@2:true,ch.qos.logback.core@2:true,ch.qos.logback.slf4j@default:false,com.jevetools.commons.api.impl@6:true,com.jevetools.commons.api@5:true,com.jevetools.unmarshal.api.impl@6:true,com.jevetools.unmarshal.api@5:true,com.jevetools.unmarshal.python.api.impl@6:true,com.jevetools.unmarshal.python.api@5:true,com.sun.el@2:true,javax.el@2:true,javax.servlet.jsp@2:true,javax.servlet@2:true,javax.xml@2:true,org.apache.commons.codec@4:true,org.apache.commons.logging@4:true,org.apache.httpcomponents.httpclient@4:true,org.apache.httpcomponents.httpcore@4:true,org.eclipse.core.jobs@4:true,org.eclipse.ecf.filetransfer@4:true,org.eclipse.ecf.identity@4:true,org.eclipse.ecf.provider.filetransfer.httpclient4.ssl@default:false,org.eclipse.ecf.provider.filetransfer.httpclient4@default:default,org.eclipse.ecf.provider.filetransfer.ssl@default:false,org.eclipse.ecf.provider.filetransfer@4:true,org.eclipse.ecf.ssl@default:false,org.eclipse.ecf@4:true,org.eclipse.equinox.app@4:true,org.eclipse.equinox.cm@3:true,org.eclipse.equinox.common@4:true,org.eclipse.equinox.concurrent@4:true,org.eclipse.equinox.ds@4:true,org.eclipse.equinox.event@4:true,org.eclipse.equinox.frameworkadmin.equinox@3:true,org.eclipse.equinox.frameworkadmin@4:true,org.eclipse.equinox.http.jetty@2:true,org.eclipse.equinox.http.registry@4:true,org.eclipse.equinox.http.servlet@4:true,org.eclipse.equinox.io@4:true,org.eclipse.equinox.ip@4:true,org.eclipse.equinox.log@4:true,org.eclipse.equinox.metatype@4:true,org.eclipse.equinox.p2.artifact.repository@4:true,org.eclipse.equinox.p2.console@3:true,org.eclipse.equinox.p2.core@4:true,org.eclipse.equinox.p2.director@4:true,org.eclipse.equinox.p2.engine@4:true,org.eclipse.equinox.p2.garbagecollector@4:true,org.eclipse.equinox.p2.jarprocessor@4:true,org.eclipse.equinox.p2.metadata.repository@4:true,org.eclipse.equinox.p2.metadata@4:true,org.eclipse.equinox.p2.operations@4:true,org.eclipse.equinox.p2.ql@4:true,org.eclipse.equinox.p2.repository@4:true,org.eclipse.equinox.p2.touchpoint.eclipse@4:true,org.eclipse.equinox.p2.touchpoint.natives@4:true,org.eclipse.equinox.p2.transport.ecf@4:true,org.eclipse.equinox.preferences@4:true,org.eclipse.equinox.registry@4:true,org.eclipse.equinox.security@4:true,org.eclipse.equinox.simpleconfigurator.manipulator@3:true,org.eclipse.equinox.simpleconfigurator@4:true,org.eclipse.equinox.useradmin@4:true,org.eclipse.equinox.util@4:true,org.eclipse.jetty.continuation@4:true,org.eclipse.jetty.http@4:true,org.eclipse.jetty.io@4:true,org.eclipse.jetty.security@4:true,org.eclipse.jetty.server@4:true,org.eclipse.jetty.servlet@4:true,org.eclipse.jetty.util@4:true,org.eclipse.osgi.services@4:true,org.eclipse.osgi@-1:true,org.sat4j.core@4:true,org.sat4j.pb@4:true,org.slf4j.api*1.6.4.v20120130-2120@2:true,org.slf4j.api*1.7.2.v20121108-1250@2:true"/>
+<stringAttribute key="timestamp" value="1351885622028"/>
+<booleanAttribute key="tracing" value="false"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
+<booleanAttribute key="useDefaultConfigArea" value="true"/>
+<stringAttribute key="workspace_bundles" value="com.jevetools.bulkdata.model.api.impl@6:true,com.jevetools.bulkdata.model.api@5:true,com.jevetools.bulkdata.model.cli@6:true"/>
+</launchConfiguration>

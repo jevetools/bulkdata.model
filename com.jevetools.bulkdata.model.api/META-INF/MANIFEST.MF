@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Version: 0.0.1.qualifier
+Bundle-SymbolicName: com.jevetools.bulkdata.model.api;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.jevetools.bulkdata.model.api.service;version="0.0.1"
+Import-Package: com.jevetools.data.model.api;version="0.0.1",
+ org.osgi.framework;version="1.7.0",
+ org.osgi.service.cm;version="1.4.0"
+Bundle-Activator: com.jevetools.bulkdata.model.api.internal.Activator

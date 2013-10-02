@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" configuration-policy="require" enabled="true" immediate="true" name="com.jevetools.bulkdata.model.api.service.BulkdataModelService">
+   <implementation class="com.jevetools.bulkdata.model.api.service.impl.BulkdataModelServiceImpl"/>
+   <service>
+      <provide interface="org.osgi.service.cm.ManagedService"/>
+      <provide interface="com.jevetools.bulkdata.model.api.service.BulkdataModelService"/>
+   </service>
+   <reference bind="bindLogService" cardinality="1..1" interface="org.osgi.service.log.LogService" name="LogService" policy="dynamic" unbind="unbindLogService" />
+   <properties entry="OSGI-INF/component.properties"/>
+   <reference bind="bindUnmarshalService" cardinality="1..1" interface="com.jevetools.unmarshal.api.service.UnmarshalService" name="UnmarshalService" policy="dynamic" unbind="unbindUnmarshalService"/>
+</scr:component>

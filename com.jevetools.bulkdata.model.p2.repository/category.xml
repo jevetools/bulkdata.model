@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.jevetools.bulkdata.model.api.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.feature" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.feature.source_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.feature.source" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.source"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.tests.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.tests.feature" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.tests"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.tests.feature.source_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.tests.feature.source" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.tests.source"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.impl.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.impl.feature" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.impl.feature.source_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.impl.feature.source" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.source"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.impl.tests.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.impl.tests.feature" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.tests"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.api.impl.tests.feature.source_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.api.impl.tests.feature.source" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.tests.source"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.cli.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.cli.feature" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.cli.feature.source_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.cli.feature.source" version="0.0.1.qualifier">
+      <category name="com.jevetools.bulkdata.model.source"/>
+   </feature>
+   <feature url="features/com.jevetools.bulkdata.model.product.feature_0.0.1.qualifier.jar" id="com.jevetools.bulkdata.model.product.feature" version="0.0.0">
+      <category name="com.jevetools.bulkdata.model"/>
+   </feature>
+   <category-def name="com.jevetools.bulkdata.model" label="jEVETools">
+      <description>
+         jEVETools - JAVA EVE Online Tools
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.bulkdata.model.source" label="jEVETools Sources">
+      <description>
+         jEVETools Sources - JAVA EVE Online Tools Sources
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.bulkdata.model.tests" label="jEVETools Tests">
+      <description>
+         jEVETools Tests - JAVA EVE Online Tools Tests
+      </description>
+   </category-def>
+   <category-def name="com.jevetools.bulkdata.model.tests.source" label="jEVETools Tests Sources">
+      <description>
+         jEVETools Tests Sources - JAVA EVE Online Tools Tests Sources
+      </description>
+   </category-def>
+</site>
