@@ -52,7 +52,7 @@ Primary targeted to be used in an JAVA OSGi environment.</description>
 		<execution.environment>JavaSE-1.7</execution.environment>
 		<tycho.version>0.18.1</tycho.version>
 		<tycho.target.platform>kepler</tycho.target.platform>
-		<tycho.scmUrl>scm:git:git://github.com/jevetools/commons.git</tycho.scmUrl>
+		<tycho.scmUrl>scm:git:git://github.com/jevetools/bulkdata.model.git</tycho.scmUrl>
 		<eclipse.version>4.3</eclipse.version>
 		<execution.environment>JavaSE-1.7</execution.environment>
 		<maven.resources.version>2.6</maven.resources.version>
@@ -63,7 +63,7 @@ Primary targeted to be used in an JAVA OSGi environment.</description>
 
 	<inceptionYear>2013</inceptionYear>
 
-	<url>https://github.com/jevetools/commons</url>
+	<url>https://github.com/jevetools/bulkdata.model</url>
 
 	<organization>
 		<name>jEVETools</name>
@@ -79,15 +79,15 @@ Primary targeted to be used in an JAVA OSGi environment.</description>
 	</developers>
 
 	<issueManagement>
-		<url>https://github.com/jevetools/commons/issues</url>
+		<url>https://github.com/jevetools/bulkdata.model/issues</url>
 		<system>Github</system>
 	</issueManagement>
 
 	<scm>
-		<url>https://github.com/jevetools/commons</url>
-		<connection>scm:git:git://github.com/jevetools/commons.git</connection>
-		<developerConnection>scm:git:git://git@github.com:jevetools/commons.git</developerConnection>
-		<tag>scm:git:git://github.com/jevetools/commons.git</tag>
+		<url>https://github.com/jevetools/bulkdata.model</url>
+		<connection>scm:git:git://github.com/jevetools/bulkdata.model.git</connection>
+		<developerConnection>scm:git:git://git@github.com:jevetools/bulkdata.model.git</developerConnection>
+		<tag>scm:git:git://github.com/jevetools/bulkdata.model.git</tag>
 	</scm>
 
 	<pluginRepositories>
