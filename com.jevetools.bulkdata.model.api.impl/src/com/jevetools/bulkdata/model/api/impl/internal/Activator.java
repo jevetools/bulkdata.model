@@ -63,6 +63,8 @@ public final class Activator
     final Dictionary<String, Object> properties = getProperties(aContext
         .getBundle());
 
+    setDirectory(properties);
+
     updateConfiguration(configuration, properties);
   }
 
@@ -71,4 +73,33 @@ public final class Activator
   {
     // NOOP
   }
+
+  /**
+   * Sets the {@link BulkdataModelService#DIRECTORY} from the enviroment.
+   * 
+   * @param aProperties {@link Dictionary}
+   */
+  private void setDirectory(final Dictionary<String, Object> aProperties)
+  {
+    final Object object = aProperties.get(BulkdataModelService.DIRECTORY);
+    
+    if (object != null)
+    {
+      final String directory = (String) object;
+      
+      if (directory.isEmpty())
+      {
+        final String envDirectory = System.getenv("BULKDATA_DIRECTORY");
+
+        if (envDirectory != null) // NOPMD
+        {
+          if (!envDirectory.isEmpty()) // NOPMD
+          {
+            aProperties.put(BulkdataModelService.DIRECTORY, envDirectory);
+          }
+        }
+      }
+    }
+  }
+
 }
